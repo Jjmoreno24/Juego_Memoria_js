@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* tipografía */
+:root {
+    --background-body: #242424;
+    --background-footer: #191919;
+    --color-text: #f7c640;
+    --first-type: sans-serif, Helvetica, Arial;
+    --color-section: rgba(255,255,255, 0.2);
+    --color-btn:#495760;
+    --color-btn-hover:#7a420e;
+    --color-btn-disabled: rgb(146, 63, 77);
+    --border-container: white;
+    /* --Segundo tipo: Verdana */
+}
+html,body,div,span,applet,object,iframe,h1,
+h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,
+address,big,cite,code,del,dfn,em,img,ins,kbd,q,
+s,samp,small,strike,strong,sub,sup,
+tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,
+form,label,legend,table,caption,tbody,tfoot,thead,tr,
+th,td,article,aside,canvas,details,embed,figure,figcaption,
+footer,header,hgroup,menu,nav,output,ruby,section,summary,
+time,mark,audio,video,button,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+/* para evitar problemas con las imagenes de logos */
+img,picture,video,iframe,
+figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+p a {
+    display: inline;
+}
+/* Para eliminar los puntos de cada <li> */
+li {
+    list-style-type: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* We deactivate default styles of the main text labels */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+::-moz-selection {
+    background-color: var(--color-text);
+    color: var(--white);
+}
+::selection {
+    background-color: var(--color-text);
+    color: var(--white);
+}
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    background-color: transparent;
+    display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+/* Restablecer las tablas */
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Evitamos problemas con SVG */
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
+/* Configuramos la tipografía para toda la web */
+body {
+    background-color: var(--background-body);
+    min-height: 100vh;
+    font-size: 100%;
+    font-family: var(--first-type);
+    color: var(--color-text);
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

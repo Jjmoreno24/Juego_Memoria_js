@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memoria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resetJm.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <ul class="header__social">
+                <li class="header__link"><a rel="noopener noreferrer" href="https://github.com/Jjmoreno24" target="_blank" title="link of github"><i class="fa fa-github"></i></a></li>
+                <li class="header__link"><a rel="noopener noreferrer" href="https://www.linkedin.com/in/jjmoreno24" target="_blank" title="link of linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <li class="header__link"><a rel="noopener noreferrer" href="https://www.sololearn.com/profile/28596833" target="_blank" title="link of SoloLearn"><i class="fas fa-s"></i></a></li>
+                <li class="header__link"><a rel="noopener noreferrer" href="https://www.instagram.com/jjmoreno24.r/" target="_blank" title="link of Instagram"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <div class="sections-container">
+                <section class="section1">
+                    <h1 class="section1__h1">Cartas Mentales</h1>
+                    <table class="section1__table">
+                        <tr class="section1__row">
+                            <td><button class="section1__btn" id="0" onclick="show(0)">?</button></td>
+                            <td><button class="section1__btn" id="1" onclick="show(1)">?</button></td>
+                            <td><button class="section1__btn" id="2" onclick="show(2)">?</button></td>
+                            <td><button class="section1__btn" id="3" onclick="show(3)">?</button></td>
+                        </tr>
+                        <tr class="section1__row">
+                            <td><button class="section1__btn" id="4" onclick="show(4)">?</button></td>
+                            <td><button class="section1__btn" id="5" onclick="show(5)">?</button></td>
+                            <td><button class="section1__btn" id="6" onclick="show(6)">?</button></td>
+                            <td><button class="section1__btn" id="7" onclick="show(7)">?</button></td>
+                        </tr>
+                        <tr class="section1__row">
+                            <td><button class="section1__btn" id="8" onclick="show(8)">?</button></td>
+                            <td><button class="section1__btn" id="9" onclick="show(9)">?</button></td>
+                            <td><button class="section1__btn" id="10" onclick="show(10)">?</button></td>
+                            <td><button class="section1__btn" id="11" onclick="show(11)">?</button></td>
+                        </tr>
+                        <tr class="section1__row">
+                            <td><button class="section1__btn" id="12" onclick="show(12)">?</button></td>
+                            <td><button class="section1__btn" id="13" onclick="show(13)">?</button></td>
+                            <td><button class="section1__btn" id="14" onclick="show(14)">?</button></td>
+                            <td><button class="section1__btn" id="15" onclick="show(15)">?</button></td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="section2">
+                    <h2 id="aciertos" class="section2__stadistic">Aciertos: 0</h2>
+                    <h2 id="tiempo-restante" class="section2__stadistic">Tiempo: 30 seconds</h2>
+                    <h2 id="movimientos" class="section2__stadistic">Movimiento: 0</h2>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>🧑‍💻 Desarrollado por: <a class="footer__a" href="https://github.com/allencarlosdev" target="_blank" rel="noopener noreferrer">Jose Moreno R.</a></p>
+        </footer>
+    </div>
+<script src="Game.js"></script>
+<script src="https://kit.fontawesome.com/0b01b67c65.js" crossorigin="anonymous"></script> <!--iconos-->
+</body>
+</html>
