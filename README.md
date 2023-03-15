@@ -7,7 +7,7 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-## Development
+## Desarrollo
 - Funciones 
 - Arreglo unidimensional
 - Math.random() para mover los numeros de las cartas por juego
@@ -18,9 +18,8 @@
 
 
 
-## Operation 
-
-El juego consta de 8 [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8] cartas pares, cuyo par es generado aleatoriamente en otra posicion cada vez que inicias una partida, cronometra el tiempo apartir del primer movimieto y consta de 30s para encontrar todos los posibles pares, de no hacerlo se le mostraran todas las cartas y el mensaje que haz perdido. Al final de cada juego se muestra el tiempo , los aciertos y la cantidad de moviminetos que realizastes.
+## Operación 
+El juego consta de 8 [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8] cartas pares, cuyo par es generado aleatoriamente en otra posicion cada vez que inicias una partida, cronometra el tiempo apartir del primer movimieto y consta de 30s para encontrar todos los posibles pares, de no hacerlo se le mostraran todas las cartas y el mensaje que haz perdido. Al final de cada juego se muestra el tiempo , los aciertos y la cantidad de moviminetos que realizastes.
 
 
 
