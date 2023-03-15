@@ -19,11 +19,12 @@
 
 
 ## Operación 
-El juego consta de 8 [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8] cartas pares, cuyo par es generado aleatoriamente en otra posicion cada vez que inicias una partida, cronometra el tiempo apartir del primer movimieto y consta de 30s para encontrar todos los posibles pares, de no hacerlo se le mostraran todas las cartas y el mensaje que haz perdido. Al final de cada juego se muestra el tiempo , los aciertos y la cantidad de moviminetos que realizastes.
+
+El juego consta de 8 [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8] cartas pares, cuyo par es generado aleatoriamente en otra posicion cada vez que inicias una partida, cronometra el tiempo apartir del primer movimieto y consta de 30s para encontrar todos los posibles pares, de no hacerlo se le mostraran todas las cartas y el mensaje que haz perdido. Al final de cada juego se muestra el tiempo , los aciertos y la cantidad de moviminetos que realizastes.
 
 
 
-## 🔭 Execution 
+## Ejecución  
 ![image1](https://user-images.githubusercontent.com/117414953/225385406-841cdad9-c027-448e-90eb-7ac5722656e7.png)
 
 
