@@ -24,9 +24,10 @@ El juego consta de 8 [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8] cartas pares, cuyo par es
 
 
 
-## Ejecución  
-![image1](https://user-images.githubusercontent.com/117414953/225385406-841cdad9-c027-448e-90eb-7ac5722656e7.png)
-
+## Vista - Ejecución
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/117414953/225385406-841cdad9-c027-448e-90eb-7ac5722656e7.png" alt="image1">
+</p>
 
 ## ☕ Visitar
 Link: https://jjmoreno24.github.io/Juego_Memoria_js/
