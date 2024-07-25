@@ -1,6 +1,6 @@
 [![KRmj-Mz6-Qa-Um-P-1584-396.png](https://i.postimg.cc/HkXSSH13/KRmj-Mz6-Qa-Um-P-1584-396.png)](https://postimg.cc/Yv2f959m)
 
-<h1>Juego_Memoria_js</h1>
+<h1>Juego de Cartas_js</h1>
 
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
